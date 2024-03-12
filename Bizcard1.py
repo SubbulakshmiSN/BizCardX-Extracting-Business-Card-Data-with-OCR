@@ -219,29 +219,7 @@ if selected == "Image Process":
     else:
         st.write("Upload an image")
 if selected == "Contact":
-    name = "Tamilanban.d"
-    mail = (f'{"Mail :"}  {"agastiagathamil2000@gmail.com"}')
-    description = "An Aspiring DATA-SCIENTIST..!"
-    social_media = {
-        "GITHUB": "https://github.com/Tamilanband",
-        "LINKEDIN": "https://www.linkedin.com/in/tamilanban-d-8098314369/"}
-
-
-
-
-    col1, col2 = st.columns(2)
-    #col3.image(Image.open("/content/dark-background-empty-room-with-plants-floor_41470-1526.avif"), width=250)
-    with col2:
-        st.title(':red[BizCardX- Extracting Business Card Data with OCR]')
-        st.write(
-            "BizCardX is to automate and simplify the process of capturing and managing contact information from business cards, saving users time and effort. It is particularly useful for professionals who frequently attend networking events, conferences, and meetings where they receive numerous business cards that need to be converted into digital contacts.")
-        st.write("---")
-        st.subheader(mail)
-    st.write("#")
-    cols = st.columns(len(social_media))
-    for index, (platform, link) in enumerate(social_media.items()):
-        cols[index].write(f"[{platform}]({link})")
-
+  
 
 
 

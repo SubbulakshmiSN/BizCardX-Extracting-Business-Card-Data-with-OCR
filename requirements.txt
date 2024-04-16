@@ -1,0 +1,7 @@
+streamlit
+easyocr
+io
+psycopg2
+numpy
+pandas
+re
